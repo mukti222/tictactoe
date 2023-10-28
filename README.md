@@ -1,3 +1,9 @@
+![Screenshot (819)](https://github.com/mukti222/tictactoe/assets/135799527/958185a8-51d9-4a62-a5d5-0798e289e88f)
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
