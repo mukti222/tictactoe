@@ -1,0 +1,74 @@
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.square {
+  @apply bg-white text-black; 
+}
+
+.layer1{
+  background-color: rgb(85, 90, 119);
+}
+.layer2{
+  height: 70%;
+  /* width: 70%; */
+  width: 320px;
+  background-image: url('./1.jpg'); 
+  background-size: cover;
+  
+}
+
+
+.button {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.layer3-buttonrow{
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+
+.layer4{
+  height: 10vh;
+  width: 10vh;
+  margin-top: 5vh;
+  margin-left: 5vh;
+  margin-right: 5vh;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid white;
+  font-weight: bold; 
+  color: white; 
+  font-family: "Cl", sans-serif;
+  font-size: xx-large;
+}
+
+.restart button{
+  background-color: rgba(255, 255, 255, 0.53); 
+  border: 2px solid white; 
+  font-weight: bold;
+  color: rgb(0, 0, 0); 
+  font-family: "Cl", sans-serif;
+}
